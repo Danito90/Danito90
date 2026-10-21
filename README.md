@@ -4,8 +4,6 @@
 
 # Daniel Torres
 
-### Gerente Transversal de TI · Desarrollador Full Stack
-
 **Transformo necesidades operativas en aplicaciones, automatizaciones e información para decidir.**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Daniel_Torres-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/daniel-torres-0b2023214/)
