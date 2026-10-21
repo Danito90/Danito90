@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-label="Ficha de Integración y consolidación de datos; sin captura de pantalla">
+<title>Integración y consolidación de datos — ficha identificativa, sin captura</title>
+<rect width="640" height="360" rx="18" fill="#10261e"/>
+<rect x="0" y="0" width="9" height="360" fill="#66d9a0"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+<text x="38" y="42" font-size="13" letter-spacing="1.6" fill="#83e4b1">FICHA DEL PROYECTO · SIN CAPTURA</text>
+<text x="38" y="78" font-size="15" fill="#a5bfb3">Automatización y datos</text>
+<text x="38" y="130" font-size="31" font-weight="700" fill="#f0fdf4">Integración y consolidación de</text><text x="38" y="170" font-size="31" font-weight="700" fill="#f0fdf4">datos</text>
+<line x1="38" y1="246" x2="602" y2="246" stroke="#355a48"/>
+<text x="38" y="281" font-size="17" fill="#bfd4cb">Python · pandas · SQL Server · PostgreSQL</text>
+<text x="38" y="337" font-size="18" fill="#77ac90">Warehouse</text>
+</g></svg>
