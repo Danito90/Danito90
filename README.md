@@ -36,7 +36,7 @@ Trabajo con aplicaciones web y de escritorio, bases de datos, flujos automatizad
 
 Aprender de forma continua es parte de mi manera de trabajar. Desde 2017 complemento el estudio con proyectos, experimentación y aplicación práctica. Mis principales referentes de formación son:
 
-- **[midudev](https://midu.dev/)** — contenido y formación que acompañan mi aprendizaje en desarrollo web. [Perfil en X](https://x.com/midudev).
+- **Miguel Ángel Durán - [midudev](https://midu.dev/)** — contenido y formación que acompañan mi aprendizaje en desarrollo web. [Perfil en X](https://x.com/midudev).
 - **[Fernando Herrera](https://www.udemy.com/user/550c38655ec11/)** — cursos que forman parte de mi recorrido de aprendizaje en desarrollo de software.
 
 Los proyectos de práctica incluidos en este perfil reflejan ese proceso de aprendizaje. Cuando parto de un curso o adapto un proyecto de terceros, lo identifico como tal.
