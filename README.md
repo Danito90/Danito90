@@ -92,9 +92,9 @@ Gran parte de mi trabajo se desarrolla en **aplicaciones internas y repositorios
 
 Este perfil presenta su propósito y las tecnologías utilizadas. Las imágenes son capturas o recursos de presentación sin datos internos; cuando no hay una captura disponible, se muestra una **ficha identificativa del proyecto**.
 
-El catálogo reúne **56 repositorios privados de mi cuenta personal**. Incluye aplicaciones, integraciones, distintas versiones, componentes reutilizables y proyectos de formación; no representa 56 productos independientes en producción.
+El catálogo reúne **54 repositorios privados** con soluciones, integraciones, versiones, bases reutilizables y proyectos de formación. Mis **dos proyectos personales públicos de simracing** se presentan en una sección propia; son desarrollos vinculados a mis intereses fuera del trabajo.
 
-## Selección de proyectos
+## Proyectos profesionales destacados
 
 <table>
 <tr>
@@ -131,10 +131,10 @@ El catálogo reúne **56 repositorios privados de mi cuenta personal**. Incluye 
 </tr>
 <tr>
 <td width="50%" valign="top">
-<img src="assets/projects/telemetria.svg" width="100%" alt="Ficha identificativa: Apex Telemetry y plataforma de simracing" />
-<h3>Apex Telemetry y plataforma de simracing</h3>
-<p>Captura y análisis de vueltas, sesiones y datos de conducción en tiempo real.</p>
-<p><code>Telemetria</code><br/><sub>Python · SQLite · WebSocket · Next.js</sub></p>
+<img src="assets/projects/py-gestion.svg" width="100%" alt="Ficha identificativa: Gestión financiera" />
+<h3>Gestión financiera</h3>
+<p>Cheques, clientes, cobranzas, transacciones, cierres de caja y flujo de fondos.</p>
+<p><code>Py_gestion</code><br/><sub>Python · Qt · SQL · Excel</sub></p>
 <p><sub>Ficha identificativa · Código privado</sub></p>
 </td>
 <td width="50%" valign="top">
@@ -149,9 +149,32 @@ El catálogo reúne **56 repositorios privados de mi cuenta personal**. Incluye 
 
 **Otras líneas de trabajo:** gestión financiera, vales de combustible, turnos para consultorios, stock de lubricantes, generación de reportes, firma manuscrita sobre documentos y comunicación de indicadores.
 
-## Catálogo completo de repositorios privados
+## Proyectos personales públicos
 
-[**Ver los 56 proyectos con miniaturas y tecnologías →**](docs/PROYECTOS.md)
+Desarrollo estos proyectos por mi interés en el **simracing**. Son iniciativas personales, independientes de mi actividad profesional, y su código está disponible públicamente.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/Danito90/Telemetria"><img src="assets/projects/telemetria.svg" width="100%" alt="Proyecto personal: Apex Telemetry y plataforma de simracing" /></a>
+<h3><a href="https://github.com/Danito90/Telemetria">Apex Telemetry</a></h3>
+<p>Captura y análisis de telemetría, sesiones y vueltas de F1 y Assetto Corsa, con visualización en tiempo real y herramientas de comparación.</p>
+<p><sub>Python · SQLite · WebSocket · Next.js</sub></p>
+<p><b>Proyecto personal · Código público</b></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/Danito90/f1-league-app"><img src="assets/projects/f1-league-app.svg" width="100%" alt="Proyecto personal: Gestión de ligas de F1" /></a>
+<h3><a href="https://github.com/Danito90/f1-league-app">F1 League App</a></h3>
+<p>Gestión de ligas, temporadas, pilotos, constructores, carreras, resultados y tablas de posiciones.</p>
+<p><sub>Next.js · TypeScript · Prisma</sub></p>
+<p><b>Proyecto personal · Código público</b></p>
+</td>
+</tr>
+</table>
+
+## Catálogo de proyectos privados y personales
+
+[**Ver el catálogo: 54 repositorios privados y 2 proyectos personales públicos →**](docs/PROYECTOS.md)
 
 Los nombres identifican los repositorios de mi cuenta. Los proyectos de práctica, las versiones relacionadas y las adaptaciones de terceros se señalan expresamente.
 
@@ -160,19 +183,19 @@ Los nombres identifican los repositorios de mi cuenta. Los proyectos de práctic
 
 | Repositorio | Qué hace | Tipo |
 | :--- | :--- | :--- |
-| `gestion_incidencia` | **Gestión integral de incidencias. Registra solicitudes, asigna técnicos y documenta estados, comentarios, valoraciones y tiempos de atención. Incluye indicadores y un catálogo interno de aplicaciones. | Aplicación |
-| `aprobacion_compras_next` | **Aprobación de compras. Centraliza solicitudes, aprobación de ítems y presupuestos, gestión de compra, documentación y seguimiento de pagos. Conserva historial y responsabilidades por etapa. | Aplicación |
-| `Ase_produccion` | **Producción industrial. Aplicación de escritorio para cargar producción, consultar registros y gestionar cargas masivas de armado y ventas, con catálogos de empleados, clientes, marcas y turnos. | Aplicación |
-| `Py_gestion` | **Gestión financiera. Herramienta de escritorio con módulos de cheques, clientes, monedas, tipos de cambio, cobranzas, transacciones, cierres de caja y flujo de fondos. | Aplicación |
-| `Romano_group` | **Gestión administrativa y comercial. Aplicación de escritorio con presupuestos, facturación, caja, cheques, anticipos y órdenes de pago. Integra consultas y procesos de gestión en una misma interfaz. | Aplicación |
-| `Pyside_turnos` | **Gestión de turnos para consultorios. Organiza turnos, pacientes o clientes, profesionales, tratamientos y estados de atención mediante una interfaz de escritorio y persistencia en base de datos. | Aplicación |
-| `ValesDjango` | **Gestión de vales de combustible. Relaciona vales con estaciones, transportes, vehículos y choferes; registra litros, combustible, fechas y vencimientos. | Aplicación |
-| `planillaPlaya` | **Planilla operativa de playa. Herramienta de escritorio para registrar información operativa de playa, trabajar con empleados y consultas de base de datos, y emitir reportes PDF. | Aplicación |
-| `StockLubricantes` | **Consulta de stock de lubricantes. Interfaz de escritorio para consultar y presentar información de lubricantes mediante modelos SQL, tablas y tareas en segundo plano. | Aplicación |
-| `Limpieza_saldos` | **Depuración de planillas y saldos. Carga planillas Excel de zonas, saldos, pagos y compras para cruzar información, aplicar códigos de filtrado y obtener una selección de clientes. | Aplicación |
-| `Firma_digital` | **Firma manuscrita sobre documentos. Permite dibujar una firma, cargar documentos y ajustar su color, tamaño y posición. El código corresponde a una firma gráfica; no acredita firma criptográfica con certificados. | Herramienta |
-| `firma_documento` | **Firma gráfica en el navegador. Herramienta web para capturar una firma manuscrita y ubicarla sobre un documento, con controles de tamaño, color, texto y previsualización de PDF. | Herramienta |
-| `PWA_incidencia` | **Gestión de incidencias en formato PWA. Otra implementación de la familia de incidencias, con creación, asignación, atención, cierre y valoración, preparada como aplicación web instalable. | Versión relacionada |
+| `gestion_incidencia` | **Gestión integral de incidencias.** Registra solicitudes, asigna técnicos y documenta estados, comentarios, valoraciones y tiempos de atención. Incluye indicadores y un catálogo interno de aplicaciones. | Aplicación |
+| `aprobacion_compras_next` | **Aprobación de compras.** Centraliza solicitudes, aprobación de ítems y presupuestos, gestión de compra, documentación y seguimiento de pagos. Conserva historial y responsabilidades por etapa. | Aplicación |
+| `Ase_produccion` | **Producción industrial.** Aplicación de escritorio para cargar producción, consultar registros y gestionar cargas masivas de armado y ventas, con catálogos de empleados, clientes, marcas y turnos. | Aplicación |
+| `Py_gestion` | **Gestión financiera.** Herramienta de escritorio con módulos de cheques, clientes, monedas, tipos de cambio, cobranzas, transacciones, cierres de caja y flujo de fondos. | Aplicación |
+| `Romano_group` | **Gestión administrativa y comercial.** Aplicación de escritorio con presupuestos, facturación, caja, cheques, anticipos y órdenes de pago. Integra consultas y procesos de gestión en una misma interfaz. | Aplicación |
+| `Pyside_turnos` | **Gestión de turnos para consultorios.** Organiza turnos, pacientes o clientes, profesionales, tratamientos y estados de atención mediante una interfaz de escritorio y persistencia en base de datos. | Aplicación |
+| `ValesDjango` | **Gestión de vales de combustible.** Relaciona vales con estaciones, transportes, vehículos y choferes; registra litros, combustible, fechas y vencimientos. | Aplicación |
+| `planillaPlaya` | **Planilla operativa de playa.** Herramienta de escritorio para registrar información operativa de playa, trabajar con empleados y consultas de base de datos, y emitir reportes PDF. | Aplicación |
+| `StockLubricantes` | **Consulta de stock de lubricantes.** Interfaz de escritorio para consultar y presentar información de lubricantes mediante modelos SQL, tablas y tareas en segundo plano. | Aplicación |
+| `Limpieza_saldos` | **Depuración de planillas y saldos.** Carga planillas Excel de zonas, saldos, pagos y compras para cruzar información, aplicar códigos de filtrado y obtener una selección de clientes. | Aplicación |
+| `Firma_digital` | **Firma manuscrita sobre documentos.** Permite dibujar una firma, cargar documentos y ajustar su color, tamaño y posición. El código corresponde a una firma gráfica; no acredita firma criptográfica con certificados. | Herramienta |
+| `firma_documento` | **Firma gráfica en el navegador.** Herramienta web para capturar una firma manuscrita y ubicarla sobre un documento, con controles de tamaño, color, texto y previsualización de PDF. | Herramienta |
+| `PWA_incidencia` | **Gestión de incidencias en formato PWA.** Otra implementación de la familia de incidencias, con creación, asignación, atención, cierre y valoración, preparada como aplicación web instalable. | Versión relacionada |
 
 </details>
 
@@ -181,11 +204,11 @@ Los nombres identifican los repositorios de mi cuenta. Los proyectos de práctic
 
 | Repositorio | Qué hace | Tipo |
 | :--- | :--- | :--- |
-| `Medicion_unico` | **Medición de tanques unificada. Centraliza la medición de combustible para distintas estaciones: convierte lecturas a litros y contempla medición diaria, agua, ajustes y descargas. | Aplicación |
-| `Med_GncDp` | **Medición de tanques — GNC Don Pedro. Versión específica para una estación, con conversión de mediciones a litros mediante tablas de calibración por combustible. | Versión por estación |
-| `Med_junin` | **Medición de tanques — Junín. Calculadora de volumen de combustible a partir de mediciones y tablas de calibración propias de la estación. | Versión por estación |
-| `med_Pamisa` | **Medición de tanques — Pamisa. Variante de la herramienta de medición con tablas de calibración y entradas por producto para los tanques de esta estación. | Versión por estación |
-| `med_san-juan` | **Medición de tanques — San Juan. Implementación de escritorio para calcular litros de combustible según las mediciones y tablas de calibración de la estación. | Versión por estación |
+| `Medicion_unico` | **Medición de tanques unificada.** Centraliza la medición de combustible para distintas estaciones: convierte lecturas a litros y contempla medición diaria, agua, ajustes y descargas. | Aplicación |
+| `Med_GncDp` | **Medición de tanques — GNC Don Pedro.** Versión específica para una estación, con conversión de mediciones a litros mediante tablas de calibración por combustible. | Versión por estación |
+| `Med_junin` | **Medición de tanques — Junín.** Calculadora de volumen de combustible a partir de mediciones y tablas de calibración propias de la estación. | Versión por estación |
+| `med_Pamisa` | **Medición de tanques — Pamisa.** Variante de la herramienta de medición con tablas de calibración y entradas por producto para los tanques de esta estación. | Versión por estación |
+| `med_san-juan` | **Medición de tanques — San Juan.** Implementación de escritorio para calcular litros de combustible según las mediciones y tablas de calibración de la estación. | Versión por estación |
 
 </details>
 
@@ -194,13 +217,13 @@ Los nombres identifican los repositorios de mi cuenta. Los proyectos de práctic
 
 | Repositorio | Qué hace | Tipo |
 | :--- | :--- | :--- |
-| `Warehouse` | **Integración y consolidación de datos. Proceso ETL que extrae información de SQL Server, aplica cargas y actualizaciones sobre PostgreSQL y admite ejecución programada o con interfaz gráfica. | ETL |
-| `Fusion_dll` | **Integración con Fusion mediante DLL. Extrae información de ventas y turnos mediante una biblioteca DLL, transforma las respuestas y las integra con la base de datos de destino. | Integración |
-| `UpFusionUnico` | **Actualización de Fusion configurable. Unifica descargas e importación de información con configuración de ejecución única, por intervalos o en horarios determinados. | Automatización |
-| `Auto_axion` | **Automatización de descargas operativas. Automatiza el acceso a Fusion, la descarga de archivos y su procesamiento para integrar datos con menos intervención manual. | Automatización |
-| `AxionCard` | **Descarga automatizada de transacciones. Automatiza con Selenium el acceso al portal, la selección de empresa y período y la descarga de movimientos para su posterior procesamiento. | Automatización |
-| `Carga_expendio` | **Carga de datos de expendios. Importa datos de expendios desde Access hacia PostgreSQL, transforma registros y dispone de utilidades para obtener coordenadas geográficas. | ETL |
-| `Envio_ventas` | **Generación automática de reportes de ventas. Consulta mediciones, ventas y proyecciones por empresa y genera archivos en PDF, Excel e imagen. El código revisado confirma la generación; no se presupone envío automático por correo. | Reportes |
+| `Warehouse` | **Integración y consolidación de datos.** Proceso ETL que extrae información de SQL Server, aplica cargas y actualizaciones sobre PostgreSQL y admite ejecución programada o con interfaz gráfica. | ETL |
+| `Fusion_dll` | **Integración con Fusion mediante DLL.** Extrae información de ventas y turnos mediante una biblioteca DLL, transforma las respuestas y las integra con la base de datos de destino. | Integración |
+| `UpFusionUnico` | **Actualización de Fusion configurable.** Unifica descargas e importación de información con configuración de ejecución única, por intervalos o en horarios determinados. | Automatización |
+| `Auto_axion` | **Automatización de descargas operativas.** Automatiza el acceso a Fusion, la descarga de archivos y su procesamiento para integrar datos con menos intervención manual. | Automatización |
+| `AxionCard` | **Descarga automatizada de transacciones.** Automatiza con Selenium el acceso al portal, la selección de empresa y período y la descarga de movimientos para su posterior procesamiento. | Automatización |
+| `Carga_expendio` | **Carga de datos de expendios.** Importa datos de expendios desde Access hacia PostgreSQL, transforma registros y dispone de utilidades para obtener coordenadas geográficas. | ETL |
+| `Envio_ventas` | **Generación automática de reportes de ventas.** Consulta mediciones, ventas y proyecciones por empresa y genera archivos en PDF, Excel e imagen. El código revisado confirma la generación; no se presupone envío automático por correo. | Reportes |
 
 </details>
 
@@ -209,24 +232,14 @@ Los nombres identifican los repositorios de mi cuenta. Los proyectos de práctic
 
 | Repositorio | Qué hace | Tipo |
 | :--- | :--- | :--- |
-| `Api_finca` | **API de gestión agrícola. API REST para administrar fincas, cuadros, proyectos, tipos y variedades de ajo, y registros de siembra, con filtros y operaciones de consulta y mantenimiento. | Backend |
-| `Finca_react` | **Gestión agrícola web. Interfaz para consultar y mantener fincas, cuadros, proyectos y siembras. Incluye autenticación, filtros y utilidades de exportación para trabajar con la API agrícola. | Frontend |
-| `formularios-frontend` | **Formularios e indicadores operativos. PWA para administrar empleados, puestos, evaluaciones ERA, cliente incógnito, promociones e imágenes, con vistas y permisos según el perfil. | Frontend |
-| `Formularios_carga` | **API de formularios operativos. Backend con autenticación JWT y operaciones sobre empleados, puestos, evaluaciones ERA, cliente incógnito, promociones e imágenes. | Backend |
-| `Formularios_Django` | **Formularios operativos en Django. Implementación en Django de registros por empresa y período para evaluaciones ERA, cliente incógnito y promociones. | Versión relacionada |
-| `landing_playa` | **Panel de indicadores de playa. Presenta litros, promociones y mezcla de ventas en distintas vistas, con gráficos, autenticación y configuración de la rotación de contenidos. | Aplicación |
-| `carrousel_playa` | **Carrusel de indicadores y comunicación. Muestra un carrusel con indicadores de litros, lubricantes, mezcla de ventas, promociones y cliente incógnito, con configuración y control de conexión. | Versión relacionada |
-| `landing-page-server` | **API para paneles de playa. Servicio de consultas para los paneles y carruseles: autenticación, información de Fusion e imágenes sobre una base PostgreSQL. | Backend |
-
-</details>
-
-<details>
-<summary><b>Simracing</b> · 2 repositorios</summary>
-
-| Repositorio | Qué hace | Tipo |
-| :--- | :--- | :--- |
-| `Telemetria` | **Apex Telemetry y plataforma de simracing. Captura telemetría de F1 por UDP y de Assetto Corsa por memoria compartida; almacena sesiones y vueltas, muestra datos por WebSocket y permite comparar y exportar. Incluye un subproyecto web de gestión de torneos. | Aplicación |
-| `f1-league-app` | **Gestión de ligas de F1. Plataforma para administrar ligas, temporadas, pilotos, constructores, carreras, resultados y puntuaciones, con tablas de posiciones. | Aplicación |
+| `Api_finca` | **API de gestión agrícola.** API REST para administrar fincas, cuadros, proyectos, tipos y variedades de ajo, y registros de siembra, con filtros y operaciones de consulta y mantenimiento. | Backend |
+| `Finca_react` | **Gestión agrícola web.** Interfaz para consultar y mantener fincas, cuadros, proyectos y siembras. Incluye autenticación, filtros y utilidades de exportación para trabajar con la API agrícola. | Frontend |
+| `formularios-frontend` | **Formularios e indicadores operativos.** PWA para administrar empleados, puestos, evaluaciones ERA, cliente incógnito, promociones e imágenes, con vistas y permisos según el perfil. | Frontend |
+| `Formularios_carga` | **API de formularios operativos.** Backend con autenticación JWT y operaciones sobre empleados, puestos, evaluaciones ERA, cliente incógnito, promociones e imágenes. | Backend |
+| `Formularios_Django` | **Formularios operativos en Django.** Implementación en Django de registros por empresa y período para evaluaciones ERA, cliente incógnito y promociones. | Versión relacionada |
+| `landing_playa` | **Panel de indicadores de playa.** Presenta litros, promociones y mezcla de ventas en distintas vistas, con gráficos, autenticación y configuración de la rotación de contenidos. | Aplicación |
+| `carrousel_playa` | **Carrusel de indicadores y comunicación.** Muestra un carrusel con indicadores de litros, lubricantes, mezcla de ventas, promociones y cliente incógnito, con configuración y control de conexión. | Versión relacionada |
+| `landing-page-server` | **API para paneles de playa.** Servicio de consultas para los paneles y carruseles: autenticación, información de Fusion e imágenes sobre una base PostgreSQL. | Backend |
 
 </details>
 
@@ -235,8 +248,8 @@ Los nombres identifican los repositorios de mi cuenta. Los proyectos de práctic
 
 | Repositorio | Qué hace | Tipo |
 | :--- | :--- | :--- |
-| `blog_personal_carlos` | **Blog personal con administración. Blog con gestión de publicaciones, categorías, usuarios y perfil, panel privado, contenidos multimedia y seguimiento analítico. | Aplicación |
-| `cv` | **Currículum web administrable. Aplicación web para organizar datos personales, formación, cursos, experiencia laboral, habilidades e imágenes mediante módulos de gestión. | Proyecto |
+| `blog_personal_carlos` | **Blog personal con administración.** Blog con gestión de publicaciones, categorías, usuarios y perfil, panel privado, contenidos multimedia y seguimiento analítico. | Aplicación |
+| `cv` | **Currículum web administrable.** Aplicación web para organizar datos personales, formación, cursos, experiencia laboral, habilidades e imágenes mediante módulos de gestión. | Proyecto |
 
 </details>
 
@@ -245,21 +258,21 @@ Los nombres identifican los repositorios de mi cuenta. Los proyectos de práctic
 
 | Repositorio | Qué hace | Tipo |
 | :--- | :--- | :--- |
-| `base_next_auth` | **Base de autenticación y permisos. Punto de partida reutilizable con acceso por credenciales y proveedores externos, usuarios, roles, grupos y permisos para aplicaciones Next.js. | Base reutilizable |
-| `whisper-local-transcribe-Editado` | **Transcripción local de audio y video. Adaptación de Local Transcribe with Whisper, de soderstromkr, con interfaz de escritorio, selección de idioma/modelo y procesamiento local con faster-whisper. | Adaptación de terceros |
-| `01-socket-server` | **Servidor de comunicación en tiempo real. Base de servidor Express y Socket.IO para practicar conexiones y eventos entre clientes y servidor. | Práctica |
-| `22-calendar-backend` | **API de calendario. Backend de práctica con registro e inicio de sesión, validación JWT y operaciones de creación, consulta, modificación y eliminación de eventos. | Práctica |
-| `asgiDjango` | **Chat por salas con Django Channels. Prueba de comunicación asíncrona mediante WebSocket: conexión a salas, mensajes y distribución a los participantes del grupo. | Prototipo |
-| `04-Wheater_app-Curso-Opencode` | **Weather CLI. Proyecto de aprendizaje con OpenCode: consulta clima y pronóstico de siete días por ciudad, guarda ubicaciones, configura unidades y temas y puede compilarse como ejecutable. | Proyecto de aprendizaje |
-| `06-open-pacman` | **Pac-Man en el navegador. Juego con laberinto, puntuación, vidas, comportamientos de fantasmas y potenciadores; utilizado para practicar desarrollo guiado por especificaciones. | Proyecto de aprendizaje |
-| `BibliotecaApp` | **Catálogo de biblioteca. Aplicación de aprendizaje de Django con libros, autores, editores, portadas, búsquedas y vistas de mantenimiento. | Proyecto de aprendizaje |
-| `DjangoApp` | **Prototipo de presupuesto. Proyecto inicial de presupuesto con categorías y subcategorías de ingresos y egresos. El módulo de movimientos revisado permanece sin implementar. | Prototipo |
-| `first-step` | **Primeros pasos con Next.js. Práctica de estructura de páginas, layouts, navegación y enlaces activos, con secciones de inicio, contacto, información y precios. | Práctica |
-| `Teslo` | **Teslo Shop. Proyecto de práctica de tienda en línea con catálogo, categorías, carrito, direcciones, pedidos y autenticación sobre Next.js y Prisma. | Proyecto de aprendizaje |
-| `Vite_electron` | **Base de escritorio con Electron y React. Proyecto de exploración de aplicaciones de escritorio con Electron, React y Vite, comunicación IPC y cambios de tema. | Base de aprendizaje |
-| `modulo2` | **Fundamentos de Dart. Colección de ejercicios sobre variables, condicionales, ciclos, funciones, listas, mapas, clases, herencia e interfaces. | Ejercicios |
-| `PruebasQT` | **Laboratorio de interfaces Qt. Colección de pruebas de controles, tablas, calendarios, ventanas, estilos, procesos asíncronos, generación de PDF y acceso a datos. | Laboratorio |
-| `git_inicial` | **Práctica inicial de Git y HTML. Repositorio de iniciación con una página estática, estilos y recursos. Su documentación no define una aplicación de negocio. | Práctica |
+| `base_next_auth` | **Base de autenticación y permisos.** Punto de partida reutilizable con acceso por credenciales y proveedores externos, usuarios, roles, grupos y permisos para aplicaciones Next.js. | Base reutilizable |
+| `whisper-local-transcribe-Editado` | **Transcripción local de audio y video.** Adaptación de Local Transcribe with Whisper, de soderstromkr, con interfaz de escritorio, selección de idioma/modelo y procesamiento local con faster-whisper. | Adaptación de terceros |
+| `01-socket-server` | **Servidor de comunicación en tiempo real.** Base de servidor Express y Socket.IO para practicar conexiones y eventos entre clientes y servidor. | Práctica |
+| `22-calendar-backend` | **API de calendario.** Backend de práctica con registro e inicio de sesión, validación JWT y operaciones de creación, consulta, modificación y eliminación de eventos. | Práctica |
+| `asgiDjango` | **Chat por salas con Django Channels.** Prueba de comunicación asíncrona mediante WebSocket: conexión a salas, mensajes y distribución a los participantes del grupo. | Prototipo |
+| `04-Wheater_app-Curso-Opencode` | **Weather CLI.** Proyecto de aprendizaje con OpenCode: consulta clima y pronóstico de siete días por ciudad, guarda ubicaciones, configura unidades y temas y puede compilarse como ejecutable. | Proyecto de aprendizaje |
+| `06-open-pacman` | **Pac-Man en el navegador.** Juego con laberinto, puntuación, vidas, comportamientos de fantasmas y potenciadores; utilizado para practicar desarrollo guiado por especificaciones. | Proyecto de aprendizaje |
+| `BibliotecaApp` | **Catálogo de biblioteca.** Aplicación de aprendizaje de Django con libros, autores, editores, portadas, búsquedas y vistas de mantenimiento. | Proyecto de aprendizaje |
+| `DjangoApp` | **Prototipo de presupuesto.** Proyecto inicial de presupuesto con categorías y subcategorías de ingresos y egresos. El módulo de movimientos revisado permanece sin implementar. | Prototipo |
+| `first-step` | **Primeros pasos con Next.js.** Práctica de estructura de páginas, layouts, navegación y enlaces activos, con secciones de inicio, contacto, información y precios. | Práctica |
+| `Teslo` | **Teslo Shop.** Proyecto de práctica de tienda en línea con catálogo, categorías, carrito, direcciones, pedidos y autenticación sobre Next.js y Prisma. | Proyecto de aprendizaje |
+| `Vite_electron` | **Base de escritorio con Electron y React.** Proyecto de exploración de aplicaciones de escritorio con Electron, React y Vite, comunicación IPC y cambios de tema. | Base de aprendizaje |
+| `modulo2` | **Fundamentos de Dart.** Colección de ejercicios sobre variables, condicionales, ciclos, funciones, listas, mapas, clases, herencia e interfaces. | Ejercicios |
+| `PruebasQT` | **Laboratorio de interfaces Qt.** Colección de pruebas de controles, tablas, calendarios, ventanas, estilos, procesos asíncronos, generación de PDF y acceso a datos. | Laboratorio |
+| `git_inicial` | **Práctica inicial de Git y HTML.** Repositorio de iniciación con una página estática, estilos y recursos. Su documentación no define una aplicación de negocio. | Práctica |
 
 </details>
 
@@ -268,10 +281,10 @@ Los nombres identifican los repositorios de mi cuenta. Los proyectos de práctic
 
 | Repositorio | Qué hace | Tipo |
 | :--- | :--- | :--- |
-| `Egg` | **Repositorio inicial de formación. El repositorio figura en la cuenta, pero su consulta de contenido devuelve una lista vacía. No hay una aplicación identificable para describir. | Sin contenido visible |
-| `Ejercicio01` | **Ejercicio básico de Git. Contiene un archivo de texto con un ejercicio de edición y seguimiento de cambios; no corresponde a una aplicación. | Ejercicio |
-| `GitImpulsa` | **Prueba de página y cambios en Git. Repositorio personal con una página HTML de prueba; se incluye por pertenecer a Danito90, sin incorporar repositorios de organizaciones. | Prueba |
-| `practica_github` | **Práctica grupal de GitHub. Repositorio con documentación de práctica grupal; no contiene una aplicación ejecutable identificable. | Ejercicio |
+| `Egg` | **Repositorio inicial de formación.** El repositorio figura en la cuenta, pero su consulta de contenido devuelve una lista vacía. No hay una aplicación identificable para describir. | Sin contenido visible |
+| `Ejercicio01` | **Ejercicio básico de Git.** Contiene un archivo de texto con un ejercicio de edición y seguimiento de cambios; no corresponde a una aplicación. | Ejercicio |
+| `GitImpulsa` | **Prueba de página y cambios en Git.** Repositorio personal con una página HTML de prueba; se incluye por pertenecer a Danito90, sin incorporar repositorios de organizaciones. | Prueba |
+| `practica_github` | **Práctica grupal de GitHub.** Repositorio con documentación de práctica grupal; no contiene una aplicación ejecutable identificable. | Ejercicio |
 
 </details>
 

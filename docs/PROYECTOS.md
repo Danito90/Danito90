@@ -1,8 +1,8 @@
-# Proyectos privados de Daniel Torres
+# Proyectos de Daniel Torres
 
 [← Volver al perfil](../README.md)
 
-Catálogo funcional de **56 repositorios privados pertenecientes a Danito90**, revisado el 21 de octubre de 2026. No incluye repositorios públicos ni repositorios de organizaciones.
+Catálogo funcional de **54 repositorios privados y 2 proyectos personales públicos pertenecientes a Danito90**, revisado el 21 de octubre de 2026. Los proyectos personales de simracing se presentan en una sección independiente de la actividad profesional. No incluye repositorios de organizaciones.
 
 Una entrada puede ser una aplicación, una versión, un backend, una base reutilizable o un ejercicio. Las descripciones se basan en documentación, estructura y archivos representativos; no implican que se haya ejecutado o validado cada aplicación en producción.
 
@@ -61,12 +61,6 @@ Una entrada puede ser una aplicación, una versión, un backend, una base reutil
 | <img src="../assets/projects/carrousel-playa.svg" width="190" alt="Ficha identificativa: Carrusel de indicadores y comunicación" /> | **Carrusel de indicadores y comunicación**<br/><code>carrousel_playa</code> · Versión relacionada<br/>Muestra un carrusel con indicadores de litros, lubricantes, mezcla de ventas, promociones y cliente incógnito, con configuración y control de conexión.<br/><sub>React · Vite · Redux Toolkit · Chart.js · Ficha identificativa</sub> |
 | <img src="../assets/projects/landing-page-server.svg" width="190" alt="Ficha identificativa: API para paneles de playa" /> | **API para paneles de playa**<br/><code>landing-page-server</code> · Backend<br/>Servicio de consultas para los paneles y carruseles: autenticación, información de Fusion e imágenes sobre una base PostgreSQL.<br/><sub>Node.js · Express · PostgreSQL · Ficha identificativa</sub> |
 
-## Simracing
-
-| Proyecto | Repositorio y descripción |
-| :--- | :--- |
-| <img src="../assets/projects/telemetria.svg" width="190" alt="Ficha identificativa: Apex Telemetry y plataforma de simracing" /> | **Apex Telemetry y plataforma de simracing**<br/><code>Telemetria</code> · Aplicación<br/>Captura telemetría de F1 por UDP y de Assetto Corsa por memoria compartida; almacena sesiones y vueltas, muestra datos por WebSocket y permite comparar y exportar. Incluye un subproyecto web de gestión de torneos.<br/><sub>Python · SQLite · WebSocket · Next.js · Ficha identificativa</sub> |
-| <img src="../assets/projects/f1-league-app.svg" width="190" alt="Ficha identificativa: Gestión de ligas de F1" /> | **Gestión de ligas de F1**<br/><code>f1-league-app</code> · Aplicación<br/>Plataforma para administrar ligas, temporadas, pilotos, constructores, carreras, resultados y puntuaciones, con tablas de posiciones.<br/><sub>Next.js · TypeScript · Prisma · Ficha identificativa</sub> |
 
 ## Web y contenido
 
@@ -104,6 +98,16 @@ Una entrada puede ser una aplicación, una versión, un backend, una base reutil
 | <img src="../assets/projects/gitimpulsa.svg" width="190" alt="Ficha identificativa: Prueba de página y cambios en Git" /> | **Prueba de página y cambios en Git**<br/><code>GitImpulsa</code> · Prueba<br/>Repositorio personal con una página HTML de prueba; se incluye por pertenecer a Danito90, sin incorporar repositorios de organizaciones.<br/><sub>HTML · Git · Ficha identificativa</sub> |
 | <img src="../assets/projects/practica-github.svg" width="190" alt="Ficha identificativa: Práctica grupal de GitHub" /> | **Práctica grupal de GitHub**<br/><code>practica_github</code> · Ejercicio<br/>Repositorio con documentación de práctica grupal; no contiene una aplicación ejecutable identificable.<br/><sub>Git · GitHub · Ficha identificativa</sub> |
 
+## Proyectos personales públicos · Simracing
+
+Iniciativas personales vinculadas al simracing, independientes de mi trabajo profesional. Ambos repositorios tienen código público.
+
+| Proyecto | Repositorio y descripción |
+| :--- | :--- |
+| <img src="../assets/projects/telemetria.svg" width="190" alt="Ficha identificativa: Apex Telemetry y plataforma de simracing" /> | **Apex Telemetry y plataforma de simracing**<br/><a href="https://github.com/Danito90/Telemetria"><code>Telemetria</code></a> · Proyecto personal · Código público<br/>Captura telemetría de F1 por UDP y de Assetto Corsa por memoria compartida; almacena sesiones y vueltas, muestra datos por WebSocket y permite comparar y exportar. Incluye un subproyecto web de gestión de torneos.<br/><sub>Python · SQLite · WebSocket · Next.js · Ficha identificativa</sub> |
+| <img src="../assets/projects/f1-league-app.svg" width="190" alt="Ficha identificativa: Gestión de ligas de F1" /> | **Gestión de ligas de F1**<br/><a href="https://github.com/Danito90/f1-league-app"><code>f1-league-app</code></a> · Proyecto personal · Código público<br/>Plataforma para administrar ligas, temporadas, pilotos, constructores, carreras, resultados y puntuaciones, con tablas de posiciones.<br/><sub>Next.js · TypeScript · Prisma · Ficha identificativa</sub> |
+
+
 ## Relaciones que ayudan a leer el catálogo
 
 - **Gestión agrícola:** `Api_finca` aporta el backend y `Finca_react` la interfaz; se describen como componentes de una misma línea funcional.
@@ -112,5 +116,5 @@ Una entrada puede ser una aplicación, una versión, un backend, una base reutil
 - **Medición de tanques:** las versiones por estación comparten el propósito; `Medicion_unico` concentra esa línea en una aplicación configurable.
 - **Incidencias:** `PWA_incidencia` y `gestion_incidencia` pertenecen a la misma familia funcional. No se afirma una cronología de reemplazo sin comprobarla.
 - **Integración con Fusion:** `Auto_axion`, `Fusion_dll` y `UpFusionUnico` implementan enfoques de descarga e integración; no se presupone que los tres sigan operativos.
-- **Telemetría:** `Telemetria` contiene el capturador local y el subproyecto `TorneosSimRacing`; `f1-league-app` es otro repositorio de gestión de ligas.
+- **Proyectos personales de simracing:** `Telemetria` contiene el capturador local y el subproyecto `TorneosSimRacing`; `f1-league-app` es otro repositorio de gestión de ligas.
 - **Transcripción:** `whisper-local-transcribe-Editado` es una adaptación de [soderstromkr/whisper-local-transcribe](https://github.com/soderstromkr/whisper-local-transcribe), no una implementación del modelo Whisper desde cero.
