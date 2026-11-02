@@ -2,7 +2,7 @@
 
 <img src="assets/banner.svg" width="100%" alt="Daniel Torres — Software, automatización y datos" />
 
-# Daniel Torres
+___
 
 **Transformo necesidades operativas en aplicaciones, automatizaciones e información para decidir.**
 
